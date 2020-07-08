@@ -20,8 +20,10 @@
     border-radius: 0 0 0 100%;
     transform-origin: right 210px;
     transform: rotate(-40deg);
+    /*animation: shakeRight 1s ease-in-out infinite;*/
     animation: shakeLeft 1s ease-in-out infinite;
 }
+
 .mustache:after {
     content: "";
     position: absolute;
@@ -33,8 +35,10 @@
     border-radius: 0 0 100% 0;
     transform-origin: left 210px;
     transform: rotate(40deg);
+    /*animation: shakeLeft 1s ease-in-out infinite;*/
     animation: shakeRight 1s ease-in-out infinite;
 }
+
 @keyframes shakeRight{
     0% {
         transform: rotate(50deg);
